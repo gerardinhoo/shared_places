@@ -31,7 +31,7 @@ import "./Input.css"
     );
 
     const {id, onInput} = props;
-    const {value, isValid} = props;
+    const {value, isValid} = inputState;
 
     useEffect(() => {
       onInput(id, value, isValid)
